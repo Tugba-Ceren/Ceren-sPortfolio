@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible"  content="IE-edge"/>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="mediaQueries.css"/>
+
+    </head>
+    <body>
+
+            <nav id ="desktop-nav">
+                
+                
+            <div class="logo">Tugba Ceren Turhan</div>
+            <div >
+                <ul class="nav-links">
+                    <li ><a href="#Projects">Projects</a></li>
+                    <li ><a href="#Resume">Resume</a></li>
+
+                    
+                </ul>
+            </div>
+        </nav>
+        <nav id="pizza-nav">
+            <div class="logo">Tugba Ceren Turhan</div>
+            <div class="pizza-menu">
+                <div class="pizza-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <ul>
+                        
+                        <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                        <li><a href="#Resume" onclick="toggleMenu()">Resume</a></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+        <main>
+            <section id="AboutMe">
+                <img src="C:\Users\ceren\Desktop\Ceren'sPortfolio\images\CerensPhoto.jpg" alt="Ceren's Picture">
+                <h1>About Me</h1>
+                <p>Hello! I am a self taught web developer who currently pursues a bachelor degree at computer systems.I am confident at making web sites with HTML,CSS and JavaScript.</p>
+            </section>
+    
+            <section id="Skills">
+                <h1>Skills</h1>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                    <li>CI/CD</li>
+                    <li>Python</li>
+                    <li>Networking</li>
+                    <li>Basics of Cybersecurity</li>
+                    <li>SQL</li>
+                </ul>
+                
+            </section>
+    
+            <section id="Resume">
+                <h1>Resume</h1>
+                <p>Click here to view or download my resume.</p>
+                <a href="Tugba_Turhan_Resume.pdf" target="_blank">View Resume</a><br/>
+                <a href="Tugba_Turhan_Resume.pdf" download> Download Resume</a>
+            </section>
+    
+            <section id="Contact">
+                <h1>Contact</h1>
+                
+                    <p>Email: <a href="mailto:cerentrhn00@gmail.com">cerentrhn00@gmail.com</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/tugba-ceren-turhan-779300207/" target="_blank">linkedin.com/in/tugba-ceren-turhan-779300207</a></p>
+                    <p>GitHub: <a href="https://github.com/Tugba-Ceren" target="_blank">github.com/Tugba-Ceren</a></p>
+                  </section>
+                  
+            </section>
+            <button id="backToTop" title="Go to top">Back To Top</button>
+
+        </main>
+        <footer>
+            <p>&copy; 2025 Tugba Ceren Turhan. All rights reserved.</p>
+        </footer>
+    
+        <script src="script.js"></script>
+    </body> 
+</html>
+
+    
+
